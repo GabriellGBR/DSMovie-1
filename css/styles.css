@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+:root {
+    --bj-gray: #E8E8E8;
+    --text-gray: #4a4a44;
+    --color-primary: #4D41C0;
+    --white: #fff;
+    --text-light-gray: #aaa;
+    --star-yellow: #FFBB3A
+}
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0%;
+}
+
+html,
+body {
+    background-color: var(--bj-gray);
+    ;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--white);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-container img {
+    margin-right: 0.625rem;
+}
+
+#dsmovie-card-list {
+    padding: 0 0.625rem;
+}
+
+.dsmovie-card {
+    width: 100%;
+    display: contents;
+}
+
+.dsmovie-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmoviecard-description {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 1.25rem 1.25rem 1.25rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    height: 220px;
+}
+
+.dsmoviecard-description h3 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.dsmovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-description-bottom h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.dsmovie-card-description-bottom img {
+    width: 1.375rem;
+}
+
+.dsmovie-card-description-bottom p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
+.dsmovie-btn,
+.dsmovie-btn:hover {
+    width: 11.25rem;
+    height: 2.5rem;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    border: 0;
+}
+
+.dsmovie-form-container {
+    padding: 2.5rem 0 0 0;
+    max-width: 30rem;
+    max-height: 38.75rem;
+}
+
+.dsmovie-form-description {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.dsmovie-form-description h3 {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.dsmovie-form {
+    width: 100%;
+}
+
+.dsmovie-form-group {
+    margin-bottom: 1.25rem;
+}
+
+.dsmovie-form-group label {
+    font-size: 0.75rem;
+    color: var(--text-light-gray);
+}
+
+.dsmovie-form-btn-container {
+    height: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dsmovie-page-container {
+    padding: 0.9375rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-page-box {
+    display: flex;
+    width: 11.25rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dsmovie-page-box button img {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(31%) saturate(5146%) hue-rotate(236deg) brightness(94%) contrast(90%);
+}
+
+.dsmovie-page-box p {
+    margin: 0;
+    font-size: 0.75rem;
+    color: var(--color-primary);
+    font-size: 400;
+}
+
+.dsmovie-page-box button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.0625rem solid var(--color-primary);
+    border-radius: 0.25rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsmovie-page-box button:disabled {
+    border: 0.0625rem solid var(--text-light-gray);
+}
+
+.dsmovie-page-box button:disabled img {
+    filter: unset;
+}
+
+.dsmovie-page-box button:disabled img {
+    filter: unset;
+}
+
+.flip-seta {
+    transform: rotate(180deg);
+}
